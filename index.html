@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Bài 1: Tính tiền lương nhân viên</h1>
+        <div>
+            <label for="">Lương 1 ngày:</label>
+            <input id="txtSalary" type="text" class="form-control">
+            <br>
+            <label for="">Số ngày làm:</label>
+            <input id="txtWorkingDays" type="text" class="form-control">
+            <div id="result1" class="alert alert-success">
+            </div>
+            <button class="btn btn-success" onclick="calcSalary()">Tính</button>
+        </div>
+        <br>
+        <br>
+        <h1>Bài 2: Tính giá trị trung bình</h1>
+        <div>
+            <label for="">Nhập số 1:</label>
+            <input id="txtNum1" type="text" class="form-control">
+            <label for="">Nhập số 2:</label>
+            <input id="txtNum2" type="text" class="form-control">
+            <label for="">Nhập số 3:</label>
+            <input id="txtNum3" type="text" class="form-control">
+            <label for="">Nhập số 4:</label>
+            <input id="txtNum4" type="text" class="form-control">
+            <label for="">Nhập số 5:</label>
+            <input id="txtNum5" type="text" class="form-control">
+            <div id="result2" class="alert alert-success">
+            </div>
+            <button class="btn btn-success" onclick="calcAvg()">Tính</button>
+        </div>
+        <br>
+        <br>
+        <h1>Bài 3: Quy đổi tiền</h1>
+        <div>
+            <label for="">Số tiền</label>
+            <input id="txtAmount" type="text" class="form-control">
+            <div id="result3" class="alert alert-success">
+            </div>
+            <button class="btn btn-success" onclick="exchangeMoney()">Quy đổi tiền</button>
+        </div>
+        <br>
+        <br>
+        <h1>Tính diện tích, chu vi hình chữ nhật</h1>
+        <div>
+            <label for="">Nhập chiều dài:</label>
+            <input id="txtLength" type="text" class="form-control">
+            <label for="">Nhập chiều rộng</label>
+            <input id="txtWidth" type="text" class="form-control">
+            <div id="result4" class="alert alert-success">
+            </div>
+            <button class="btn btn-success" onclick="calcAreaPeri()">Tính</button>
+        </div>
+        <br>
+        <br>
+        <h1>Bài 5: Tính tổng 2 ký số</h1>
+        <div>
+            <label for="">Nhập số:</label>
+            <input id="txtNum" type="text" class="form-control">
+            <div id="result5" class="alert alert-success">
+            </div>
+            <button class="btn btn-success" onclick="calcNum()">Tính</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
+</body>
+
+</html>
