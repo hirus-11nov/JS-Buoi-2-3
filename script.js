@@ -21,7 +21,7 @@ function calcAvg() {
 
 //Bài 3:
 function exchangeMoney() {
-    var amount = document.getElementById("txtAmount").value;
+    var amount = +document.getElementById("txtAmount").value;
     var result3 = document.getElementById("result3");
     var totalMoney = amount * 23500;
     result3.innerHTML = "Số tiền sau khi quy đổi từ USD sang VND là: " + new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(totalMoney);
@@ -39,7 +39,7 @@ function calcAreaPeri() {
 
 //Bài 5:
 function calcNum() {
-    var num = document.getElementById("txtNum").value;
+    var num = +document.getElementById("txtNum").value;
     var result5 = document.getElementById("result5");
     var tensOfNum = Math.floor(num / 10);
     var unitsOfNum = num % 10;
